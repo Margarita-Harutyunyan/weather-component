@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- check with the previous version later -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Weather Component</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="weather-container">
+        <h2>Weather at Construction Site</h2>
+
+        <div class="language-selector">
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </div>
+
+        <div class="day-selector">
+            <label for="day">View:</label>
+            <select id="day">
+                <option value="today">Today</option>
+                <option value="week">All Week</option>
+           </select>
+        </div>
+
+        <div class="weather-info" id="weather-info"></div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
