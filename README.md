@@ -8,7 +8,7 @@ Before starting, clone the repository and follow these steps:
     npm install
     ```
 
-2. Add your API key in config.js:
+2. Add your API key in config.js
 
 
 3. Start a server in the root of the project. I used Python:
